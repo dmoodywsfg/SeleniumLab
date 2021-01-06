@@ -1,0 +1,23 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "firefox",
+      "platform": "WINDOWS",
+      "maxInstances": 1
+    },
+    {
+      "browserName": "chrome",
+      "platform": "WINDOWS",
+      "maxInstances": 1
+    }
+  ],
+  "maxSession": 5,
+  "port": -1,
+  "register": true,
+  "registerCycle": 5000,
+  "nodeStatusCheckTimeout": 5000,
+  "nodePolling": 5000,
+  "role": "node",
+  "unregisterIfStillDownAfter": 60000
+}
